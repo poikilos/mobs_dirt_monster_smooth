@@ -4,7 +4,7 @@ local S = mobs.intllib
 
 -- Dirt Monster by PilzAdam
 
-mobs:register_mob("mobs_monster:dirt_monster", {
+mobs:register_mob("mobs_dirt_monster_smooth:dirt_monster", {
 	type = "monster",
 	passive = false,
 	attack_type = "dogfight",
@@ -74,7 +74,7 @@ if minetest.get_modpath("ethereal") then
 end
 
 mobs:spawn({
-	name = "mobs_monster:dirt_monster",
+	name = "mobs_dirt_monster_smooth:dirt_monster",
 	nodes = {spawn_on},
 	min_light = 0,
 	max_light = 9,
@@ -85,7 +85,7 @@ mobs:spawn({
 })
 
 
-mobs:register_egg("mobs_monster:dirt_monster", S("Dirt Monster"), "default_dirt.png", 1)
+mobs:register_egg("mobs_dirt_monster_smooth:dirt_monster", S("Dirt Monster"), "default_dirt.png", 1)
 
 
-mobs:alias_mob("mobs:dirt_monster", "mobs_monster:dirt_monster") -- compatibility
+mobs:alias_mob("mobs:dirt_monster", "mobs_dirt_monster_smooth:dirt_monster") -- compatibility

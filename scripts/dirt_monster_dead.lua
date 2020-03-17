@@ -4,7 +4,7 @@ local S = mobs.intllib
 
 -- Dirt Monster by PilzAdam
 
-mobs:register_mob("mobs_monster:dirt_monster_dead", {
+mobs:register_mob("mobs_dirt_monster_smooth:dirt_monster_dead", {
 	type = "monster",
 	passive = false,
 	attack_type = "dogfight",
@@ -52,4 +52,4 @@ mobs:register_mob("mobs_monster:dirt_monster_dead", {
 	},
 })
 
-mobs:alias_mob("mobs:dirt_monster_dead", "mobs_monster:dirt_monster_dead") -- compatibility
+mobs:alias_mob("mobs:dirt_monster_dead", "mobs_dirt_monster_smooth:dirt_monster_dead") -- compatibility

@@ -1,5 +1,5 @@
 
-local path = minetest.get_modpath("mobs_monster")
+local path = minetest.get_modpath("mobs_dirt_monster_smooth")
 
 -- Intllib
 local S
@@ -19,15 +19,6 @@ mobs.intllib = S
 -- Monsters
 
 dofile(path .. "/scripts/dirt_monster.lua") -- PilzAdam
-dofile(path .. "/dungeon_master.lua")
-dofile(path .. "/oerkki.lua")
-dofile(path .. "/sand_monster.lua")
-dofile(path .. "/stone_monster.lua")
-dofile(path .. "/tree_monster.lua")
-dofile(path .. "/lava_flan.lua") -- Zeg9
-dofile(path .. "/mese_monster.lua")
-dofile(path .. "/spider.lua") -- AspireMint
 
-dofile(path .. "/lucky_block.lua")
 
-print ("[MOD] Mobs Redo 'Monsters' loaded")
+print ("[MOD] Mobs Redo 'dirt_monster' (smooth version) loaded")

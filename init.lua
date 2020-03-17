@@ -18,7 +18,7 @@ mobs.intllib = S
 
 -- Monsters
 
-dofile(path .. "/dirt_monster.lua") -- PilzAdam
+dofile(path .. "/scripts/dirt_monster.lua") -- PilzAdam
 dofile(path .. "/dungeon_master.lua")
 dofile(path .. "/oerkki.lua")
 dofile(path .. "/sand_monster.lua")

@@ -139,3 +139,5 @@ mobs:register_arrow("mobs_monster:fireball", {
 })
 
 --minetest.override_item("default:obsidian", {on_blast = function() end})
+
+mobs:register_egg("mobs_monster:dungeon_master", S("Dmaster"), "default_dirt.png", 1)
